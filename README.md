@@ -22,8 +22,8 @@ This application is for searching GitHub profiles in GitHub.com by using [GitHub
     By using those codes we can access github profiles data by making AJAX call to GitHub API
 
 3. Make sure you have these installed
-  - [node.js](http://nodejs.org/)
-  - [git](http://git-scm.com/)
+    - [node.js](http://nodejs.org/)
+    - [git](http://git-scm.com/)
 
 4. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) 
 
@@ -41,7 +41,8 @@ This application is for searching GitHub profiles in GitHub.com by using [GitHub
 
     `npm start`
 
-####Note
+#### Note
+
   The site will run using `lite-server` and will be served up at the following local address:  
     http://localhost:3000
 

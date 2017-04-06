@@ -21,27 +21,28 @@ This application is for searching GitHub profiles in GitHub.com by using [GitHub
     After successful registration ClinetID and Client Secret code will be generated.
     By using those codes we can access github profiles data by making AJAX call to GitHub API
 
-1. Make sure you have these installed
+3. Make sure you have these installed
   - [node.js](http://nodejs.org/)
   - [git](http://git-scm.com/)
 
-2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) 
+4. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) 
 
     `git clone https://github.com/kumardss/NG2GitHubProfileSearch.git`
     
-3. CD to the folder
+5. CD to the folder
 
     `cd github-profile-search`
     
-4. Run the following to install the project dependencies:
+6. Run the following to install the project dependencies:
 
     `npm install`
     
-5. Run the npm start command to build the code, watch for file changes, and serve up the site locally:
+7. Run the npm start command to build the code, watch for file changes, and serve up the site locally:
 
     `npm start`
 
-Note that the site will run using `lite-server` and will be served up at the following local address:  
+####Note
+  The site will run using `lite-server` and will be served up at the following local address:  
     http://localhost:3000
 
 *If you use a code editor that launches its own web server please note that it may run on a different port number. 

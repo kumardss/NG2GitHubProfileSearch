@@ -1,11 +1,18 @@
 {
-  "name": "simplewebsite",
+  "name": "github-profile-search",
   "version": "1.0.0",
+  "author": "Kumar D",
+  "description": "This project is the repository for GitHub Profile Search App",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/kumardss/NG2GitHubProfileSearch.git"
+  },
   "scripts": {
-    "start": "tsc & concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
+    "prestart": "npm run clean",
+    "start": "tsc & concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "typings": "typings",
     "postinstall": "typings install"
   },

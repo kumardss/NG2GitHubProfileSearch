@@ -5,12 +5,12 @@ This is the repository for my project **GitHub Profile Search**
 
 ## Project Description
 
-This application is for searching GitHub profiles in GitHub.com by using [GitHub API] (https://github.com/settings/developers) 
+This application is for searching GitHub profiles in GitHub.com by using [GitHub API](https://github.com/settings/developers) 
 
 
 ## Instructions
 
-1. Register an application to use [GitHub Api] (https://github.com/settings/developers)
+1. Register an application to use [GitHub Api](https://github.com/settings/developers)
 
 2. Input the following fields.
     Applicatins Name

@@ -14,9 +14,9 @@ This application is for searching GitHub profiles in GitHub.com by using [GitHub
 
 2. Input the following fields.
     - Applicatins Name
-    - Homepage Url    -   *http://localhost:3000*
+    - Homepage Url    -   *'http://localhost:3000'*
     - Application Description
-    - Authorization callback URL  -   *http://localhost:3000*
+    - Authorization callback URL  -   *'http://localhost:3000'*
 
     After successful registration ClinetID and Client Secret code will be generated.
     By using those codes we can access github profiles data by making AJAX call to GitHub API

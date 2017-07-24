@@ -11,7 +11,6 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "prestart": "npm run clean",
     "start": "tsc & concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "typings": "typings",
     "postinstall": "typings install"
